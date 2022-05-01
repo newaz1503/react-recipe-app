@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.App{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 3rem;
+    display: block;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+.App .form-box{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding-bottom: 4rem;
+}
+.App .form-box input.search-field{
+    flex-basis: 70%;
+    padding: 10px 15px;
+    border: 1px solid #c0c0c0;
+}
+.App .form-box input.search-field:focus{
+    outline: none;
+    border: 1px solid rgb(112, 112, 112);
+}
+.App .form-box button.btn{
+    padding: 10px 25px;
+    font-size: 0.765rem;
+    cursor: pointer;
+    border: 1px solid #c0c0c0;
+}
+.App .form-box button.btn:hover{
+    background-color: rgb(230, 230, 230);
+}
+.title{
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+.recipes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+    margin: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+ul li{
+    padding: 3px 0;
+}
